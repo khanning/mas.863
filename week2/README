@@ -1,0 +1,21 @@
+box-gen.py
+
+Generates foldable boxes in .dxf format.
+
+Requires [dxfwrite](https://pypi.python.org/pypi/dxfwrite/)
+
+```usage: box-gen.py [-h] [--lid LID] l w h t o
+
+Generate foldable boxes. Exports in .dxf format
+
+positional arguments:
+  l           inner length of box
+  w           inner width of box
+  h           inner height of box
+  t           thickness of material
+  o           output .dxf file
+
+optional arguments:
+  -h, --help  show this help message and exit
+  --lid LID   generate a lid
+```
